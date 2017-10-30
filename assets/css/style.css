@@ -1,0 +1,63 @@
+* {
+	background-color: lightgray;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+#name, #name h1 {
+	background-color: teal;
+}
+
+#nav {
+	width: 20%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#about {
+	max-width: 60%;
+	float: left;
+}
+
+#about p {
+	margin: auto;
+	padding: 0;
+	line-height: 2em;
+	font-size:1.25em;
+}
+
+#about, #about h2, #about p {
+	background-color: white;
+	
+	padding: 0;
+}
+
+#about img {
+	margin: 20px;
+	float: left;
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+#contact {
+	
+}
+
+#contact img {
+	width: 100px;
+	height: 100px;
+}
+
+footer {
+	width: 100%;
+}
+
+footer p {
+	
+}

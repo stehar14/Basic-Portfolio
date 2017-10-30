@@ -1,0 +1,57 @@
+/*My Portfolio Homework #1
+  Created 10/26/17
+  Written by: Steve Harold*/
+
+* {
+	
+}
+
+body {
+	
+	margin: auto;
+	background-color: #3a4660;
+}
+
+.clear {
+	clear: both;
+}
+
+/*header*/
+
+header {
+	float: left;
+	display: inline;
+	background-color:  #845007;
+	width: 100%;
+}
+
+h1 {
+	float: left;
+	margin-left: 10%;
+}
+
+nav {
+	float: right;
+	margin: 27px;
+	margin-right: 10%;
+}
+
+nav span {
+	float: left;
+	margin: 0 10px;
+}
+
+nav span a {
+	display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.body {
+	max-width: 80%;
+	margin: auto;
+}
+
+#about {
+	background-color:  #c9af98;
+}
