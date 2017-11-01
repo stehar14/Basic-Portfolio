@@ -31,10 +31,15 @@ header {
 	margin-bottom: 40px;
 }
 
+#head-width {
+	width: 960px;
+	margin: auto;
+}
+
 h1 {
 	float: left;
-	margin: 0 0 0 10%;
-	background-color:  #028090;
+	margin: 0;
+	background-color: #028090;
 	padding: 10px 10px;
 	font-size: 35px;
 	font-weight: bold;
@@ -43,14 +48,14 @@ h1 {
 
 nav {
 	float: right;
-	margin: 25px;
-	margin-right: 10%;
+	margin-top: 25px;
+	width: 270px;
 }
 
 nav span {
 	float: left;	
 	border-left: #3A4660 solid 1px;
-	color: #028090;
+	color: #028090; 
 }
 
 nav span:first-child {
@@ -59,10 +64,11 @@ nav span:first-child {
 
 nav span a {
 	display: inline-block;
-	padding-right: 20px;
-	padding-left: 20px;
+	padding-right: 19px;
+	padding-left: 19px;
     text-align: center;
     text-decoration: none;
+    font-size: 15px;
 }
 
 nav span a:visited {
@@ -76,12 +82,13 @@ nav span:hover {
 nav span a:hover {
 	color: #E8F1F2;
 	background-color: #028090;
+	font-weight: bold;
 }
 
 /*body of page*/
 
 .body {
-	width: 80%;
+	width: 960px;
 	margin: auto;
 }
 
@@ -90,9 +97,9 @@ nav span a:hover {
 #about {
 	background-color:  #E8F1F2;
 	padding: 20px;
-	margin-top: 0px;
+	margin: 0px auto auto auto;
 	float: left;
-	max-width: 65%;
+	width: 610px;
 	color: #3A4660;
 }
 
@@ -122,7 +129,7 @@ nav span a:hover {
 	padding: 20px;
 	margin-top: 0px;
 	float: left;
-	max-width: 65%;
+	width: 610px;
 	color: #3A4660;
 }
 
@@ -137,7 +144,7 @@ nav span a:hover {
 }
 
 input {
-	margin: 0px 0 10px 0;
+	margin: 0px auto 10px auto;
 }
 
 #submit {
@@ -148,27 +155,32 @@ input {
 
 /*contact info*/
 
-.contact {
+.connect {
 	background-color: #E8F1F2;
-	max-width: 360px;
+	width: 240px;
 	float: right;
 	margin-top: 0px;
-	padding: 0px 15px 15px 15px;
+	padding: 15px 15px 15px 15px;
 }
 
-.contact h3 {
+.connect h3 {
 	border-bottom: black solid 1px;
 	padding-bottom: 10px;
 	font-size: 22px;
-	margin-top: 10px;
+	margin-top: 0;
 	font-weight: bold;
 	color: #028090;
 }
 
-.contact img {
-	width: 80px;
-	height: 80px;
-	padding: 15px 5px 0 5px;
+.connect img {
+	width: 65px;
+	height: 65px;
+	padding: 5px;
+	margin: 15px 0 0 0;
+}
+
+.connect a img:hover {
+	background-color:  #028090;
 }
 
 /*footer*/
