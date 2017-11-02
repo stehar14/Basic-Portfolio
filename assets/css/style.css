@@ -222,7 +222,32 @@ input {
 	color: #028090;
 }
 
-#portfolio img {
+#first {
+	background: url(http://lorempixel.com/285/225/technics) 50% 50% no-repeat;
+	width: 285px;
+	height: 225px;
+}
+
+#second {
+	background: url(http://lorempixel.com/285/225/sports) 50% 50% no-repeat;
+	width: 285px;
+	height: 225px;
+}
+
+#third {
+	background: url(http://lorempixel.com/285/225/food) 50% 50% no-repeat;
+	width: 285px;
+	height: 225px;
+}
+
+#fourth {
+	background: url(http://lorempixel.com/285/225/nature) 50% 50% no-repeat;
+	width: 285px;
+	height: 225px;
+}
+
+#fifth {
+	background: url(http://lorempixel.com/285/225) 50% 50% no-repeat;
 	width: 285px;
 	height: 225px;
 }
@@ -258,7 +283,7 @@ input {
 	color: #028090;
 }
 
-#portfolio a:hover img {
+#portfolio a:hover {
 	opacity: 60%;
 	border: #028090 solid 4px;
 	width: 277px;
