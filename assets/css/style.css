@@ -1,6 +1,6 @@
 /*My Portfolio Homework #1
 	Created 10/26/17
-	Last updated 11/1/17
+	Last updated 11/2/17
 	Written by: Steve Harold*/
 
 @import url(http://fonts.googleapis.com/css?family=PT+Sans);
@@ -20,8 +20,7 @@ body {
 	display: flex;
 	flex-direction: column;	
 	margin: auto;
-	background-image: url(../images/dark_wood.png);
-	/*background-color: #8693AB;*/
+	background-image: url(../images/dark_wood.png); /*Background texture supplied by SubtlePatterns.com*/
 }
 
 .clear {
@@ -119,7 +118,7 @@ nav span a:hover {
 
 #about h2 {
 	margin-top: 0;
-	padding: 10px 0 20px 10px;
+	padding: 0px 0 20px 0px;
 	border-bottom: #3A4660 solid 2px;
 	font-size: 30px;
 	font-weight: bold;
@@ -135,7 +134,7 @@ nav span a:hover {
 	width: 200px;
 }
 
-/*connect page*/
+/*contact page*/
 
 #contact {
 	background-color:  #E8F1F2;
@@ -149,7 +148,7 @@ nav span a:hover {
 #contact h2 {
 	margin-top: 0;
 	margin-bottom: 10px;
-	padding: 10px 0 10px 10px;
+	padding: 0px 0 20px 0px;
 	border-bottom: #3A4660 solid 2px;
 	font-size: 30px;
 	font-weight: bold;
@@ -173,7 +172,7 @@ input {
 	font-weight: bold;
 }
 
-/*contact info*/
+/*connect with me*/
 
 .connect {
 	background-color: #E8F1F2;
@@ -203,14 +202,81 @@ input {
 	background-color:  #028090;
 }
 
+/*portfolio*/
+
+#portfolio {
+	background-color:  #E8F1F2;
+	padding: 20px;
+	margin: 0px auto auto auto;
+	float: left;
+	width: 610px;
+	color: #3A4660;
+}
+
+#portfolio h2 {
+	margin-top: 0;
+	padding: 0px 0 20px 0px;
+	border-bottom: #3A4660 solid 2px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #028090;
+}
+
+#portfolio img {
+	width: 285px;
+	height: 225px;
+}
+
+#first,
+#third,
+#fifth {
+	float: left;
+	margin-top: 40px;
+	position: relative;	
+}
+
+#second,
+#fourth {
+	float: right;
+	margin-top: 40px;
+	position: relative;
+}
+
+#portfolio h4 {
+	background-color: #028090;
+	text-align: center;
+	color: #E8F1F2;
+	position: absolute;
+	bottom: 35px;
+	width: 100%;
+	padding: 10px 0;
+	font-size: 25px;
+}
+
+#portfolio a:hover h4 {
+	background-color: #E8F1F2;
+	color: #028090;
+}
+
+#portfolio a:hover img {
+	opacity: 60%;
+	border: #028090 solid 4px;
+	width: 277px;
+	height: 217px;
+}
+
 /*footer*/
 
 footer {
 	height: 70px;
 	color: #E8F1F2;
 	text-align: center;
-	padding: 15px;
+	padding: 40px;
 	margin-top: 40px;
 	background-color: #3A4660;
 	border-top: #028090 solid 10px;
+}
+
+footer p {
+	font-size: 12px;
 }
