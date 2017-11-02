@@ -223,31 +223,31 @@ input {
 }
 
 #first {
-	background: url(http://lorempixel.com/285/225/technics) 50% 50% no-repeat;
+	background: url(../images/website.jpg) 50% 50% no-repeat;
 	width: 285px;
 	height: 225px;
 }
 
 #second {
-	background: url(http://lorempixel.com/285/225/sports) 50% 50% no-repeat;
+	background: url(../images/blog.jpg) 50% 50% no-repeat;
 	width: 285px;
 	height: 225px;
 }
 
 #third {
-	background: url(http://lorempixel.com/285/225/food) 50% 50% no-repeat;
+	background: url(../images/movie.jpg) 50% 50% no-repeat;
 	width: 285px;
 	height: 225px;
 }
 
 #fourth {
-	background: url(http://lorempixel.com/285/225/nature) 50% 50% no-repeat;
+	background: url(../images/games.jpg) 50% 50% no-repeat;
 	width: 285px;
 	height: 225px;
 }
 
 #fifth {
-	background: url(http://lorempixel.com/285/225) 50% 50% no-repeat;
+	background: url(../images/news.jpg) 50% 50% no-repeat;
 	width: 285px;
 	height: 225px;
 }
