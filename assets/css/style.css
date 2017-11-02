@@ -5,15 +5,23 @@
 
 @import url(http://fonts.googleapis.com/css?family=PT+Sans);
 
+html,
+body {
+	height: 100%;
+}
+
 body * {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 	line-height: 2em;
 }
 
-body {	
+body {
+	display: flex;
+	flex-direction: column;	
 	margin: auto;
-	background-color: #8693AB;
+	background-image: url(../images/dark_wood.png);
+	/*background-color: #8693AB;*/
 }
 
 .clear {
@@ -90,6 +98,8 @@ nav span a:hover {
 .body {
 	width: 960px;
 	margin: auto;
+	overflow: hidden;
+	flex: 1 0 auto;
 }
 
 /*about me*/
@@ -110,16 +120,19 @@ nav span a:hover {
 #about h2 {
 	margin-top: 0;
 	padding: 10px 0 20px 10px;
-	border-bottom: black solid 2px;
+	border-bottom: #3A4660 solid 2px;
 	font-size: 30px;
 	font-weight: bold;
 	color: #028090;
 }
 
-#about img {
+#me {
+	background: url(../images/me.jpg) 35% 20% no-repeat;
 	float: left;
-	margin: 10px 10px 0 10px;
-	padding: 20px 20px 0 0;
+	margin: 30px 15px 0 0;
+	padding: 30px 20px 0 0;
+	height: 200px;
+	width: 200px;
 }
 
 /*connect page*/
@@ -137,7 +150,7 @@ nav span a:hover {
 	margin-top: 0;
 	margin-bottom: 10px;
 	padding: 10px 0 10px 10px;
-	border-bottom: black solid 2px;
+	border-bottom: #3A4660 solid 2px;
 	font-size: 30px;
 	font-weight: bold;
 	color: #028090;
@@ -148,9 +161,16 @@ input {
 }
 
 #submit {
+	background-color: #E8F1F2;
+	color: #028090;
+	margin-top: 15px;
+	border: #028090 solid 2px;
+}
+
+#submit:hover {
 	background-color: #028090;
 	color: #E8F1F2;
-	margin-top: 15px;
+	font-weight: bold;
 }
 
 /*contact info*/
@@ -190,7 +210,7 @@ footer {
 	color: #E8F1F2;
 	text-align: center;
 	padding: 15px;
-	margin-top: 0px;
+	margin-top: 40px;
 	background-color: #3A4660;
 	border-top: #028090 solid 10px;
 }
