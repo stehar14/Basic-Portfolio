@@ -3,7 +3,7 @@
 	Last updated 11/2/17
 	Written by: Steve Harold*/
 
-@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Roboto');
 
 html,
 body {
@@ -11,7 +11,7 @@ body {
 }
 
 body * {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	line-height: 2em;
 }
@@ -47,10 +47,11 @@ h1 {
 	float: left;
 	margin: 0;
 	background-color: #028090;
-	padding: 10px 10px;
-	font-size: 35px;
+	padding: 0px 10px;
+	font-size: 40px;
 	font-weight: bold;
 	color: #E8F1F2;
+	font-family: 'Montserrat', sans-serif;
 }
 
 nav {
@@ -71,11 +72,22 @@ nav span:first-child {
 
 nav span a {
 	display: inline-block;
-	padding-right: 19px;
-	padding-left: 19px;
     text-align: center;
     text-decoration: none;
     font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#span1 {
+	width: 77.203px;
+}
+
+#span2 {
+	width: 93.031px;
+}
+
+#span3 {
+	width: 89.7px;
 }
 
 nav span a:visited {
@@ -120,9 +132,10 @@ nav span a:hover {
 	margin-top: 0;
 	padding: 0px 0 20px 0px;
 	border-bottom: #3A4660 solid 2px;
-	font-size: 30px;
+	font-size: 35px;
 	font-weight: bold;
 	color: #028090;
+	
 }
 
 #me {
@@ -150,13 +163,15 @@ nav span a:hover {
 	margin-bottom: 10px;
 	padding: 0px 0 20px 0px;
 	border-bottom: #3A4660 solid 2px;
-	font-size: 30px;
+	font-size: 35px;
 	font-weight: bold;
 	color: #028090;
 }
 
 input {
 	margin: 0px auto 10px auto;
+	font-family: 'Roboto', sans-serif;
+	padding-left: 10px;
 }
 
 #submit {
@@ -164,6 +179,9 @@ input {
 	color: #028090;
 	margin-top: 15px;
 	border: #028090 solid 2px;
+	width: 78.25px;
+	text-align: center;
+	padding: 0px;
 }
 
 #submit:hover {
@@ -185,7 +203,7 @@ input {
 .connect h3 {
 	border-bottom: black solid 1px;
 	padding-bottom: 10px;
-	font-size: 22px;
+	font-size: 27px;
 	margin-top: 0;
 	font-weight: bold;
 	color: #028090;
@@ -217,7 +235,7 @@ input {
 	margin-top: 0;
 	padding: 0px 0 20px 0px;
 	border-bottom: #3A4660 solid 2px;
-	font-size: 30px;
+	font-size: 35px;
 	font-weight: bold;
 	color: #028090;
 }
@@ -275,12 +293,14 @@ input {
 	bottom: 20px;
 	width: 100%;
 	padding: 10px 0;
-	font-size: 25px;
+	font-size: 20px;
 }
 
 #portfolio a:hover h4 {
 	background-color: #E8F1F2;
 	color: #028090;
+	padding-bottom: 6px;
+	font-weight: bold;
 }
 
 #portfolio a:hover {
